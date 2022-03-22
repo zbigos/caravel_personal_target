@@ -1,5 +1,36 @@
 # Caravel user project includes
--v $(USER_PROJECT_VERILOG)/rtl/user_project_wrapper.v	     
--v $(USER_PROJECT_VERILOG)/rtl/user_proj_example.v
+-v $(USER_PROJECT_VERILOG)/rtl/user_project_wrapper.v
+//  5 vga demo                       : /home/zerotoasic/asic_tools/caravel_user_project/openlane/designs/wrapped-vgademo-on-fpga
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped-vgademo-on-fpga/wrapper.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped-vgademo-on-fpga/vgademo-on-fpga/src/sphere.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped-vgademo-on-fpga/vgademo-on-fpga/src/top.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped-vgademo-on-fpga/vgademo-on-fpga/src/vga_core.v
+//  4 TETRIS on silicon              : /home/zerotoasic/asic_tools/caravel_user_project/openlane/designs/wrapped_tetris
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_tetris/wrapper.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_tetris/FPGA-tetris/src/top.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_tetris/FPGA-tetris/src/gmanager.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_tetris/FPGA-tetris/src/blockmemory.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_tetris/FPGA-tetris/src/board.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_tetris/FPGA-tetris/src/cellshader.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_tetris/FPGA-tetris/src/color_lut.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_tetris/FPGA-tetris/src/digitdisplay.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_tetris/FPGA-tetris/src/gamespeed_display.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_tetris/FPGA-tetris/src/meta_mem.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_tetris/FPGA-tetris/src/meta_memcell.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_tetris/FPGA-tetris/src/meta_memrow.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_tetris/FPGA-tetris/src/mod24.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_tetris/FPGA-tetris/src/scoredisplay.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_tetris/FPGA-tetris/src/screen_manager.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_tetris/FPGA-tetris/src/shader.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_tetris/FPGA-tetris/src/shifter.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_tetris/FPGA-tetris/src/tetron_I.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_tetris/FPGA-tetris/src/tetron_La.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_tetris/FPGA-tetris/src/tetron_Lb.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_tetris/FPGA-tetris/src/tetron_O.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_tetris/FPGA-tetris/src/tetron_Sa.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_tetris/FPGA-tetris/src/tetron_Sb.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_tetris/FPGA-tetris/src/tetron_T.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_tetris/FPGA-tetris/src/timer.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_tetris/FPGA-tetris/src/vga_core.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_tetris/FPGA-tetris/src/volatile_cell_storage.v
 
- 
